@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BondInn.RegisterPage">
+    <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Image Source="BondInn_Logo.png" WidthRequest="180" HeightRequest="180"></Image>
+            <Entry x:Name="txtEmail" Placeholder="Email" TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Button
+                Text="Sign Up"
+                Clicked="SignUpClicked"
+                Margin="60, 40"
+                BackgroundColor="Gray"
+                TextColor="Black"/>
+
+        </StackLayout>
+</ContentPage>

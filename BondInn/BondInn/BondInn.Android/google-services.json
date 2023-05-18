@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908007468453",
+    "project_id": "bondinnauth",
+    "storage_bucket": "bondinnauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908007468453:android:be1c66b290ed1c23f38c4c",
+        "android_client_info": {
+          "package_name": "com.Bondinn.Bondinn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908007468453-r3u3gdakq21chbf4765qcqda81hpc5go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPrGh7w37d--sQPLLIjXkL7BCgeq6uFgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908007468453-r3u3gdakq21chbf4765qcqda81hpc5go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
